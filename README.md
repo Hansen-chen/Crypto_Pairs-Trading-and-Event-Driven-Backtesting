@@ -1,5 +1,5 @@
 # Summary
-This Jupyter notebook is consist of Pairs Trading in Crypto and Event Driven Backtesting
+This Jupyter notebook consists of Pairs Trading in Crypto and Event Driven Backtesting
 
 ## Pairs Trading in Crypto
 
@@ -21,3 +21,6 @@ An Event Driven Backtesting library backtrader is used for backtesting, the back
 - The pnl graphs show the strategy can effectively capture the temporary correlation breakdown when both coins are within a stable price range
 - However, the pnl graphs show a sharp drawdown at around 6pm on 10 Jun because Spell breaks out its current price range faster than Chsb does, so the model cannot capture this kind of price range breakout movement
 - Possible future improvements are adding stop loss to avoid having significant drawdown during price range breakout movement, or adding predictor function to classify that it is a price range breakout so the position can be closed immediately after the classification
+
+## Related Project
+[Stock Pairs Trading and Event Driven Backtesting](https://github.com/Hansen-chen/Pairs-Trading-and-Event-Driven-Backtesting)
